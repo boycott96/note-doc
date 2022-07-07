@@ -40,6 +40,8 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
+          blogSidebarTitle: "全部",
+          blogSidebarCount: "ALL",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -71,7 +73,7 @@ const config = {
           },
           { to: "/blog", label: "博客", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/huaisun/note-doc",
             label: "GitHub",
             position: "right",
           },
@@ -112,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 小屋, Inc. 皖ICP备20002653号-2.`,
       },
       prism: {
         theme: lightCodeTheme,
