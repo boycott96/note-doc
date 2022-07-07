@@ -1928,8 +1928,8 @@ spec:
 [root@k8s-master01 dashboard]# kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 ```
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/GpcH5Yqqj0n9Cliag8kbwng634qNfmqFjd7xna7LNnkXjhCtUickcfnbOgOnAibRiaica1mGlFobNptTAbhEiaWnZNpw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](./img/1.png)
 访问：`https://192.168.1.1:30080`
-![图片](https://mmbiz.qpic.cn/mmbiz_png/GpcH5Yqqj0n9Cliag8kbwng634qNfmqFjRgv8aG1HI87QCkKoJicn75IXPFrVl8zxvaZuVu2L9YibNeey7AZJUVicA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
-![图片](https://mmbiz.qpic.cn/mmbiz_png/GpcH5Yqqj0n9Cliag8kbwng634qNfmqFj7kwBMxjjPuomuTbIe30CS9JhWTsMzsjyKiacQiacAIW57xpjaMmWek7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
-到此，我们的 Kubernetes 便搭建完成了，如果你们在安装中出现问题，可以通过下面的推广信息来联系博主共同探讨。
+![图片](./img/2.png)
+![图片](./img/3.png)
+到此，我们的 Kubernetes 便搭建完成了.
