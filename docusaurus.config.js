@@ -61,7 +61,7 @@ const config = {
       navbar: {
         title: "光光小屋",
         logo: {
-          alt: "My Site Logo",
+          alt: "Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -87,7 +87,11 @@ const config = {
             items: [
               {
                 label: "Python教程",
-                to: "/docs/intro",
+                href: "https://pydoc.larkdance.cn/",
+              },
+              {
+                label: "Kubernetes安装教程",
+                to: "/docs/kubernetes/intro",
               },
             ],
           },
